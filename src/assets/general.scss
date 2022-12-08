@@ -1,0 +1,35 @@
+@use './partials/variables' as*;
+@import 'bootstrap/scss/bootstrap';
+$fa-font-path : "./webfonts";
+@import '/node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '/node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
+@import '/node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
+@import '/node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    overflow: overlay;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 20px $col1;
+    background: rgb(234, 228, 228);
+    border-radius: 10px;
+    overflow: overlay;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $col4;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: $col1-1;
+}
