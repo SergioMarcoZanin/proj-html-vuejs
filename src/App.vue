@@ -2,13 +2,13 @@
   <div>
     <HeaderComponent />
     <JumboComponent />
-    <Main1Component />
-    <Main2Component />
-    <Main3Component />
-    <Main4Component />
-    <Main5Component />
-    <Main6Component />
-    <Main7Component />
+    <FeaturesCouresComponent />
+    <CoursesComponent />
+    <PriceCoursesComponent />
+    <VideoYoutubeComponent />
+    <CityCoursesComponent />
+    <PeopleComponent />
+    <NewslettersComponent />
     <FooterComponent />
   </div>
 </template>
@@ -17,16 +17,16 @@
 import FooterComponent from './components/FooterComponent.vue';
 import HeaderComponent from './components/HeaderComponent.vue';
 import JumboComponent from './components/JumboComponent.vue';
-import Main7Component from './components/Main7Component.vue';
-import Main1Component from './components/Main1Component.vue';
-import Main2Component from './components/Main2Component.vue';
-import Main3Component from './components/Main3Component.vue';
-import Main4Component from './components/Main4Component.vue';
-import Main5Component from './components/Main5Component.vue';
-import Main6Component from './components/Main6Component.vue';
+import NewslettersComponent from './components/NewslettersComponent.vue';
+import FeaturesCouresComponent from './components/FeaturesCouresComponent.vue';
+import CoursesComponent from './components/CoursesComponent.vue';
+import PriceCoursesComponent from './components/PriceCoursesComponent.vue';
+import VideoYoutubeComponent from './components/VideoYoutubeComponent.vue';
+import CityCoursesComponent from './components/CityCoursesComponent.vue';
+import PeopleComponent from './components/PeopleComponent.vue';
 
 export default {
-  components: { HeaderComponent, Main1Component, FooterComponent, JumboComponent, Main2Component, Main3Component, Main4Component, Main5Component, Main6Component, Main7Component }
+  components: { HeaderComponent, FeaturesCouresComponent, FooterComponent, JumboComponent, CoursesComponent, PriceCoursesComponent, VideoYoutubeComponent, CityCoursesComponent, PeopleComponent, NewslettersComponent, }
 }
 </script>
 

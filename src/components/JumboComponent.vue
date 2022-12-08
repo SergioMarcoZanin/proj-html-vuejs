@@ -10,7 +10,7 @@
                 <a class="text-white" href="#nogo">Get started today</a>
             </div>
         </div>
-        <div class="img-backgorund"><img src="/img/home-business-hero-avatar.png" alt="Non Trovato">
+        <div class="img-backgorund"><img src="src\assets\img\home-business-hero-avatar.png" alt="Non Trovato">
         </div>
         <div class="menu-comparsa">
             <i class="py-2 fa-solid fa-ruler-combined"></i>
@@ -59,7 +59,7 @@ export default {
 }
 
 .img-backgorund {
-    background-image: url(./img/home-business-hero-global-image.png);
+    background-image: url(../assets/img/home-business-hero-global-image.png);
     width: 100%;
     height: 100%;
     margin-bottom: 0px;

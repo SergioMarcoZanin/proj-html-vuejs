@@ -2,9 +2,9 @@
     <div class="bg3 container-fluid justify-content-between mt-5 pt-5 mb-5 pb-5">
         <div class="d-flex col-12">
             <div class="bg-video">
-                <img src="/img/home-business-video-poster-670x450.jpg" alt="">
+                <img src="src\assets\img\home-business-video-poster-670x450.jpg" alt="">
                 <div class="yt">
-                    <a href="https://www.youtube.com/watch?v=ElFJ1qcl74U&t=2s"><img src="/img/icon-youtube-play.png"
+                    <a href=""><img src="src\assets\img\icon-youtube-play.png"
                             alt=""></a>
                 </div>
             </div>
@@ -47,7 +47,7 @@ export default {
 @use '../assets/partials/variables' as *;
 
 .bg3 {
-    background-image: url(/img/background-map-dots-top-right-transparent.png);
+    background-image: url(../assets/img/background-map-dots-top-right-transparent.png);
     background-size: cover;
     background-color: $col1-1;
 }

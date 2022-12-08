@@ -4,7 +4,7 @@
       class="container-fluid d-flex align-items-center align-content-center m-auto justify-content-between gap-3 py-2"
       id="nav">
       <div class=" d-flex justify-content-between align-items-center">
-        <div> <img class="w-50 ms-5 pt-1" src="/img/dark-logo.png" alt=""> </div>
+        <div> <img class="w-50 ms-5 pt-1" src="src\assets\img\dark-logo.png" alt=""> </div>
       </div>
       <div class="">
         <ul class="d-flex gap-5 list-unstyled pt-2 m-0 position-relative uldprdwn">
