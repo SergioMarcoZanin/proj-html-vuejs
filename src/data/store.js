@@ -43,32 +43,32 @@ export const store = reactive({
 
     elements: [
         {
-            img: 'img/icons8-luce-accesa.gif',
+            img: '',
             name: 'One to One',
             info: 'Getting the necessary clarity about the current state to help you improve your game.',
         },
         {
-            img: 'img/icons8-posizione-globale.gif',
+            img: '',
             name: 'Anywhere',
             info: 'Access to valuable and portable program which allow you to setup and live anywhere you want.',
         },
         {
-            img: 'img/icons8-orologio.gif',
+            img: '',
             name: 'On Time',
             info: 'Punctuality is our top priority because it\'s an essential criteria to assess a program quality.',
         },
         {
-            img: 'img/icons8-monitor.gif',
+            img: '',
             name: 'Online Coures',
             info: 'Online business coaching now offers you a very powerful way to empower your business into success.',
         },
         {
-            img: 'img/icons8-grafico-ad-anello.gif',
+            img: '',
             name: 'Consulting',
             info: 'You will get a clear sense of direction for your business, thorough assessment and faster results.',
         },
         {
-            img: 'img/icons8-impostazioni.gif',
+            img: '',
             name: 'Self Development',
             info: 'Business Coaching often keep your focus and develop you both in a professional and personal way.',
         },
@@ -76,7 +76,7 @@ export const store = reactive({
 
     elements2: [
         {
-            img: 'img/home-business-service-slide-01-480x298.jpg',
+            img:'img/home-business-service-slide-01-480x298.jpg' ,
             name: 'Consultative Trainig',
             info: 'with a coach addressing multiple issues that are off balance, affecting your business in various unconsidered ways.',
             url: '#nogo',
