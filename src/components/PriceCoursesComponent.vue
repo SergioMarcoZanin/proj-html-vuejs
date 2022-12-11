@@ -33,7 +33,7 @@
 import { store } from '../data/store';
 export default {
     components: {
-        name: 'Main3Component',
+        name: 'PriceCoursesComponent',
     },
     data: function () {
         return {

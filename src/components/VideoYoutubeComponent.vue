@@ -32,7 +32,7 @@
 import { store } from '../data/store';
 export default {
     components: {
-        name: 'Main4Component',
+        name: 'VideoYoutubeComponent',
     },
     data: function () {
         return {

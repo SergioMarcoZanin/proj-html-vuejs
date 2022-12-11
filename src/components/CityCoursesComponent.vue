@@ -31,7 +31,7 @@
 import { store } from '../data/store';
 export default {
     components: {
-        name: 'Main5Component',
+        name: 'CityCoursesComponent',
     },
     data: function () {
         return {

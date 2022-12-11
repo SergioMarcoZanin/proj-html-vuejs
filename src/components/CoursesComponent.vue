@@ -26,7 +26,7 @@
 import { store } from '../data/store';
 export default {
     components: {
-        name: 'Main2Component',
+        name: 'CousesComponent',
     },
     data: function () {
         return {

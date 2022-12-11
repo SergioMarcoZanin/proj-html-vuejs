@@ -29,7 +29,7 @@
 import { store } from '../data/store';
 export default {
   components: {
-    name: 'Main1Component',
+    name: 'FeaturesCoursesComponent',
   },
   data: function () {
     return {
